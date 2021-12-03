@@ -1,7 +1,6 @@
 class ReferencesService {
   getCounterCopyingReferences(object) {
-    // TODO: assing object to a new variable and return it.
-    return null;
+    return object;
   }
 
   getCounterWithoutCopyingReferences(object) {
