@@ -42,7 +42,7 @@ describe('ReferencesService Suite Tests', () => {
   });
 
   // @TIP: remove the following `.skip` if you want to do the extra sub-challenge :)
-  it.skip('should return a counter without modifying the original instance (optional sub-challenge)', () => {
+  it('should return a counter without modifying the original instance (optional sub-challenge)', () => {
     const a = { object: { counter: 0 } };
     const b = service.getCounterWithoutDeepCopyingReferences(a);
 
