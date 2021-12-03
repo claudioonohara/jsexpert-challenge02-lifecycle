@@ -1,7 +1,13 @@
 class ObjectMethodsService {
   getEnhancedObject(rawObject) {
-    // TODO: return an enhanced object implementing `valueOf` or `toString` depending on the context
-    return null;
+    return {
+      toString() {
+        return rawObject.name
+      },
+      valueOf() {
+        return rawObject.age
+      }
+    };
   }
 
   getEnhancedObject2(rawObject) {

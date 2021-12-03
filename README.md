@@ -1,3 +1,5 @@
+Claudio Toyoshi Onohara
+
 # Story: Entendendo conceitos fundamentais do ciclo de vida do Javascript
 
 A idéia é implementar códigos pensando no comportamento do Javascript com base no `JS Expect - Módulo 03`, que trata de `Conceitos fundamentais sobre o ciclo de vida do Javascript`. 
