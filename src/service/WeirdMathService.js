@@ -8,8 +8,7 @@ class WeirdMathService {
   }
 
   getWeirdStringBooleanMath2(string, boolean) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return Number(string) - boolean;
   }
 
   getWeirdStringNumberMath(string, number) {
