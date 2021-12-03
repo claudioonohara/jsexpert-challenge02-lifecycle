@@ -1,7 +1,6 @@
 class StatementsService {
   getReturnBasedOnStatement(condition1, condition2) {
-    // TODO: use condition stations && or || in order to return the expected value
-    return null;
+    return condition1 || condition2;
   }
 
   getReturnBasedOnStatement2(condition1, condition2) {
