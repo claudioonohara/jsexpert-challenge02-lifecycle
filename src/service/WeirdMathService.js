@@ -12,8 +12,7 @@ class WeirdMathService {
   }
 
   getWeirdStringNumberMath(string, number) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return Number(string) - Number(number);
   }
 }
 
