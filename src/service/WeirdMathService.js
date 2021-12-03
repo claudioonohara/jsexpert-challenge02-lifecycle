@@ -1,7 +1,6 @@
 class WeirdMathService {
   getWeirdBooleanNumberMath(boolean, number) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return number + boolean;
   }
 
   getWeirdStringBooleanMath(string, boolean) {
