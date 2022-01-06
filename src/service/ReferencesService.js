@@ -4,7 +4,7 @@ class ReferencesService {
   }
 
   getCounterWithoutCopyingReferences(object) {
-    return {...object};
+    return Object.create(object);
   }
 
   getCounterWithoutDeepCopyingReferences(object) {

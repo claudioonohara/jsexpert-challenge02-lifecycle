@@ -8,11 +8,11 @@ class WeirdMathService {
   }
 
   getWeirdStringBooleanMath2(string, boolean) {
-    return Number(string) - boolean;
+    return string - boolean;
   }
 
   getWeirdStringNumberMath(string, number) {
-    return Number(string) - Number(number);
+    return +string - number;
   }
 }
 

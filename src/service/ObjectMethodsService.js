@@ -1,9 +1,6 @@
 class ObjectMethodsService {
   getEnhancedObject(rawObject) {
     return {
-      toString() {
-        return rawObject.name
-      },
       valueOf() {
         return rawObject.age
       }
@@ -12,9 +9,6 @@ class ObjectMethodsService {
 
   getEnhancedObject2(rawObject) {
     return {
-      valueOf() {
-        return  `[name="${rawObject.name}",age=${rawObject.age}]`
-      },
       toString() {
         return `[name="${rawObject.name}",age=${rawObject.age}]`
       }
