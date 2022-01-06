@@ -19,7 +19,7 @@
     "NodeJS",
     "unit"
   ],
-  "author": "Wellington S. Almeida (WellsSA)",
+  "author": "Claudio Onohara",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.3.4",
